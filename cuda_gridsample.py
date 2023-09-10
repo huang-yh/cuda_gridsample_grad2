@@ -1,8 +1,8 @@
-from torch.utils.cpp_extension import load
+import os
+
 import torch
 from pkg_resources import parse_version
-
-import os
+from torch.utils.cpp_extension import load
 
 curr_path = os.path.abspath(os.path.join(os.path.abspath(__file__), os.path.pardir))
 
